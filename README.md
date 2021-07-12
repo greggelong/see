@@ -32,3 +32,9 @@ https://code.visualstudio.com/docs/languages/cpp
 
 and it actually worked.
 
+this video was also helpful
+
+to walking through the configure process
+
+https://youtu.be/77v-Poud_io
+
