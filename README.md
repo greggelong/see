@@ -58,3 +58,35 @@ or mount this one differently
 
 
 https://askubuntu.com/questions/499275/how-to-set-usb-drive-with-executable-permission
+
+
+## update I got the permissions changed 
+
+
+Making the USB disk on the Raspberry Pi have permission for executables.
+
+Which you need to run compiled c files.
+
+My disk is mounted in sda1
+
+I had already made a folder in media called media/gregUsb
+
+I mount the usb to that
+
+pi@raspberrypi:~ $ sudo umount /dev/sda1
+
+ 
+pi@raspberrypi:~ $ sudo mount -t vfat -o rw,exec,uid=1000,gid=1000,umask=022 /dev/sda1 /media/gregUsb
+ 
+pi@raspberrypi:~ $ cd /media/gregUsb
+
+you can navigate using the terminal 
+
+from the gui file system the name will still look like the name of the USB eg. Kingston
+
+but if you open a terminal there it will open to media/gregUsb
+
+then to unmount 
+
+
+pi@raspberrypi:~ $ sudo umount /media/gregUsb
