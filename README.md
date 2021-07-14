@@ -38,3 +38,23 @@ to walking through the configure process
 
 https://youtu.be/77v-Poud_io
 
+## Cloned onto my raspberry pi
+
+I wanted to also use my raspberry pi.
+
+However my pi has very limited memory and I wanted to work off
+
+the usb drive I am using for downloads.
+
+However I could not change the permissions to executable
+
+with chmod +x  
+
+it seems my pi usb is fat format
+
+I will need to format a different drive 
+
+or mount this one differently
+
+
+https://askubuntu.com/questions/499275/how-to-set-usb-drive-with-executable-permission
